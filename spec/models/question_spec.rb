@@ -8,6 +8,7 @@ RSpec.describe Question, type: :model do
   end
 
   describe 'associations' do
+    it { is_expected.to have_many(:question_access) }
     it { is_expected.to belong_to(:discipline) }
   end
 end
