@@ -4,6 +4,6 @@ FactoryBot.define do
     text { "MyText" }
     answer { "MyString" }
     daily_access { 1 }
-    discipline { nil }
+    discipline
   end
 end
